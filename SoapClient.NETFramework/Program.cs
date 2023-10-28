@@ -10,6 +10,8 @@ namespace SoapClient.NETFramework
     {
         static void Main(string[] args)
         {
+            //Add a service reference for:
+            //https://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL
         }
     }
 }

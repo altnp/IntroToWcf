@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Add a service reference for:
+//https://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL
+
