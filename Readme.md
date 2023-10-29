@@ -1,5 +1,6 @@
 # Prerequisists
 - Visual Studio 2022
+- SOAPUI
 
 ## Configure your Visual Studio instance
 From the root of this repository, run the following powershell script. If you setup your pc using the `init-pc` repository you can skip this step.
