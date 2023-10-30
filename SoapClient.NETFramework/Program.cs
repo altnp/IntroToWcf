@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoapClient.NETFramework.NumberConversion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,10 @@ namespace SoapClient.NETFramework
         {
             //Add a service reference for:
             //https://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL
+
+            var converter = new NumberConversionSoapTypeClient();
+            converter.NumberToDollars(10.0m);
+            
         }
     }
 }

@@ -23,9 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IISHostedService", "IISHost
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostedService", "SelfHostedService\SelfHostedService.csproj", "{C5B2CA3E-5417-4116-B24C-3D0ABF42BA2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPCoreClient", "ASPCoreClient\ASPCoreClient.csproj", "{E4A8B9DE-201F-4E6E-99FD-22D26C327F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPCoreClient", "ASPCoreClient\ASPCoreClient.csproj", "{E4A8B9DE-201F-4E6E-99FD-22D26C327F57}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFrameworkClient", "NetFrameworkClient\NetFrameworkClient.csproj", "{A5ADA580-EDFA-4141-98F5-0A3089DBF7A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F617B70-4490-4909-8A2E-37C3A76C168A} = {5F617B70-4490-4909-8A2E-37C3A76C168A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
