@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "net.tcp://localhost:55777/GeoPointService"
+    ],
+    "collectionTypes": [
+      "System.Collections.Generic.Dictionary`2",
+      "System.Collections.Generic.List`1"
+    ],
+    "namespaceMappings": [
+      "*, GeoPointService"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}
